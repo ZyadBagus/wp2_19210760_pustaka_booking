@@ -6,21 +6,37 @@ justify-content-center" href="index.html">
         <div class="sidebar-brand-icon rotate-n-15">
             <i class="fas fa-book"></i>
         </div>
-        <div class="sidebar-brand-text mx-3">Pustaka
-            Booking</div>
+        <div class="sidebar-brand-text mx-3">Pustaka Booking</div>
     </a>
     <!-- Divider -->
     <hr class="sidebar-divider">
 
     <!-- Looping Menu-->
 
-    <!-- Heading -->
+	<!-- Heading -->
     <div class="sidebar-heading">
+        Dashboard
+    </div>
+	 <li class="nav-item active">
+        <!-- Nav Item - Dashboard -->
+	<li class="nav-item">
+        <a class="nav-link pb-0" href="<?=
+                                        base_url('admin'); ?>">
+            <i class="fa fa-fw fa book"></i>
+            <span>Home</span></a>
+    </li>
+    <div class="sidebar-heading mt-3">
         Master Data
     </div>
     <!-- Nav Item - Dashboard -->
     <li class="nav-item active">
         <!-- Nav Item - Dashboard -->
+	<li class="nav-item">
+        <a class="nav-link pb-0" href="<?=
+                                        base_url('kategori_buku'); ?>">
+            <i class="fa fa-fw fa book"></i>
+            <span>Kategori Buku</span></a>
+    </li>
     <li class="nav-item">
         <a class="nav-link pb-0" href="<?=
                                         base_url('buku'); ?>">
